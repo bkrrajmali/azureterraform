@@ -1,0 +1,29 @@
+# ---- Terraform local files ----
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local secrets and overrides
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Terraform provider & module folders
+.terraform/
+.terraform.lock.hcl
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual env (if any)
+venv/
+__pycache__/
